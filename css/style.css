@@ -182,17 +182,12 @@ header .content ul li:before {
 
 /*spoilers*/
 
-.spoilers .spoiler_box {
-    width: 100%;
-    max-width: 586px;
-    float: left;
-    box-sizing: border-box;
-}
 .spoilers details {
     min-height: 32px;
     position: relative;
-    display: block;
+    display: inline-block;
     width: 100%;
+    max-width: 586px;
     vertical-align: top;
     padding: 10px 10px 10px 51px;
     box-sizing: border-box;
@@ -390,7 +385,6 @@ header .content ul li:before {
 .buy .tariff_box .tariff .buy {
     width: 100%;
     font-size: 18px;
-    outline: none;
 }
 
 /*feedback*/
@@ -462,8 +456,6 @@ header .content ul li:before {
     padding-left: 30px;
     margin-bottom: 18px;
     line-height: 26px;
-    color: #fff;
-    text-decoration: none;
 }
 
 .feedback .contact_block a.contlink:before{
